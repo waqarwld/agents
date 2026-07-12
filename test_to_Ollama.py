@@ -6,7 +6,7 @@ os.environ["OPENAI_API_KEY"] = ""
 
 # 1. Define the local base URL
 # OLLAMA_BASE_URL = "http://localhost:11434"  # This should match your local service's URL
-LOCAL_ENDPOINT_URL = "http://localhost:11434/v1"  # This should match your local service's endpoint
+LOCAL_ENDPOINT_URL = "http://localhost:20128/v1"  # This should match your local service's endpoint
 
 try:
     # 2. Initialize the model, pointing it to your local endpoint
